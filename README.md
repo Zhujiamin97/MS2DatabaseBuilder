@@ -13,4 +13,4 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 
 # Install the package
-devtools::install_github("yourusername/MS2DatabaseBuilder")
+devtools::install_github("Zhujiamin97/MS2DatabaseBuilder")
