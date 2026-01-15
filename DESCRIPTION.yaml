@@ -1,0 +1,18 @@
+Package: MS2DatabaseBuilder
+Title: Build MS2 Database from Compound List and MS2 Data
+Version: 0.1.0
+Authors@R: person("Your", "Name", email = "your.email@example.com", role = c("aut", "cre"))
+Description: A Shiny application to build MS2 database by matching compounds with MS2 spectra.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny (>= 1.7.0),
+    shinydashboard (>= 0.7.0),
+    DT (>= 0.20),
+    plotly (>= 4.10.0),
+    shinyjs (>= 2.1.0),
+    mzR (>= 2.30.0)
+Remotes: 
+    Bioconductor/mzR
+RoxygenNote: 7.2.3
