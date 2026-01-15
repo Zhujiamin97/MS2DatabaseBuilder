@@ -8,6 +8,9 @@ library(DT)
 library(plotly)
 library(shinyjs)
 library(mzR)
+library(dplyr)
+library(tidyr)
+library(readr)
 
 
 # ==================== UI部分 ====================
@@ -1282,4 +1285,5 @@ server <- function(input, output, session) {
 }
 
 # ==================== 运行Shiny应用 ====================
+
 shinyApp(ui = ui, server = server)
