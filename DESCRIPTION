@@ -2,9 +2,9 @@ Package: MS2DatabaseBuilder
 Type: Package
 Title: Build MS2 Database from Compound List and MS2 Data
 Version: 1.0.0
-Date: 2024-01-01
-Author: Your Name
-Maintainer: Your Name <your.email@example.com>
+Date: 2026-01-16
+Author: Jiamin Zhu
+Maintainer: Jiamin Zhu <747482255@qq.com>
 Description: A Shiny application for building MS2 databases by matching compounds 
     from CSV files with MS2 spectra from mzML/mzXML files. Includes EIC extraction,
     visualization, and multiple export formats.
