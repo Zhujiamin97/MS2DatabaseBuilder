@@ -231,8 +231,8 @@ ui <- fluidPage(
               
               fluidRow(
                 column(6,
-                       numericInput("rt_tol", "RT容差 (秒)", 
-                                    value = 30, min = 5, max = 300, step = 5,
+                       numericInput("rt_tol", "RT容差 (秒) [特征离子的RT与二级谱图对应的特征离子的RT的差值]", 
+                                    value = 6, min = 5, max = 300, step = 5,
                                     width = "100%")
                 ),
                 column(6,
@@ -1287,4 +1287,5 @@ server <- function(input, output, session) {
 # ==================== 运行Shiny应用 ====================
 
 shinyApp(ui = ui, server = server)
+
 
