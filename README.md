@@ -16,5 +16,6 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 devtools::install_github("Zhujiamin97/MS2DatabaseBuilder")
 
 # Run shiny
+library(MS2DatabaseBuilder)
 MS2DatabaseBuilder::runMS2DatabaseBuilder()
 
