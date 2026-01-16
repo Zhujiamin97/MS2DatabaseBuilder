@@ -390,7 +390,7 @@ ui <- fluidPage(
 
 # ==================== 服务器部分 ====================
 server <- function(input, output, session) {
-  
+  options(shiny.maxRequestSize = 30000 * 1024 ^ 2)
   # ==================== 响应式值 ====================
   values <- reactiveValues(
     compounds = NULL,
@@ -1287,3 +1287,4 @@ server <- function(input, output, session) {
 # ==================== 运行Shiny应用 ====================
 
 shinyApp(ui = ui, server = server)
+
