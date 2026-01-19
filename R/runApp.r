@@ -61,8 +61,8 @@ runMS2DatabaseBuilder <- function(launch.browser = NULL,
   
   # Print welcome message
   message("╔══════════════════════════════════════════════════════╗")
-  message("║        MS2 Database Builder v1.0                    ║")
-  message("║        Launching Shiny Application...               ║")
+  message("║        MS2 Database Builder v1.0                     ║")
+  message("║        Launching Shiny Application...                ║")
   message("╚══════════════════════════════════════════════════════╝")
   message("")
   message("📁 Expected input files:")
